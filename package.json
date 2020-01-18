@@ -1,0 +1,23 @@
+{
+	"name": "weatherbot",
+	"version": "1.0.0",
+	"description": "Bot that gives the local weather forecast",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lax0248917/weatherBot.git"
+	},
+	"author": "Zach King",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/lax0248917/weatherBot/issues"
+	},
+	"homepage": "https://github.com/lax0248917/weatherBot#readme",
+	"dependencies": {
+		"axios": "^0.19.1",
+		"slackbots": "^1.2.0"
+	}
+}
